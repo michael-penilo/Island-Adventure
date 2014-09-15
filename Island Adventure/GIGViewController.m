@@ -32,10 +32,13 @@
     
     //This makes the initial stats for the character as set out in the factory get loaded up.
     [self updateCharacterStatsForSupply:nil withTool:nil withHealthEffect:0];
+    
     //This updates the information displayed for the tile the character lands on.
     [self updateTile];
+    
     //This updates whether the navigation buttons are visible or not so out of bounds areas are inaccessible.
     [self updateButtons];
+    
     //This hides the reset button at the start of the game.
     self.resetButton.hidden = YES;
 }
@@ -48,8 +51,11 @@
 
 //Updating relevant data when the player presses the action button.
 - (IBAction)actionButtonPressed:(UIButton *)sender {
+    
+    //This checks the current tile coordinate.
     GIGTile *tile = [[self.tiles objectAtIndex:self.currentPoint.x] objectAtIndex:self.currentPoint.y];
-    //This checks if the tile landed on is the final challenge tile.
+    
+    //This checks if the tile landed on is the final challenge tile and reduces the boss health accordingly.
     if (tile.healthEffect == -15)
     {
         self.crevisse.health = self.crevisse.health - self.character.knowledge;
@@ -60,7 +66,7 @@
     //This displays the updated character stats.
     [self updateTile];
     
-    //Winner or loser messages.
+    //Winner or loser messages, plus the game automatically resets itself as well.
     if (self.character.health <= 0)
     {
         UIAlertView *alertView = [[UIAlertView alloc] initWithTitle:@"Starved Message" message:@"You have died of hunger. Please restart the game." delegate:nil cancelButtonTitle:@"OK" otherButtonTitles:nil];
@@ -123,7 +129,9 @@
 //This updates whether the navigation buttons are visible or not so out of bounds areas are inaccessible.
 -(void)updateButtons
 {
+    //Check the current tile coordinate.
     GIGTile *tile = [[self.tiles objectAtIndex:self.currentPoint.x] objectAtIndex:self.currentPoint.y];
+    //If the current tile is the final challenge, this will hide all navigation buttons so the player cannot back out.
     if (tile.healthEffect == -15)
     {
         self.northButton.hidden = YES;
@@ -140,7 +148,7 @@
     }
 }
 
-//This check whether a tile exists at coordinates surrounding the current tile the player is on.
+//Checks whether a tile exists at coordinates surrounding the current tile the player is on.
 -(BOOL)tileExistsAtPoint:(CGPoint)point
 {
     if (point.x >=0 && point.y >=0 && point.x < [self.tiles count] && point.y < [[self.tiles objectAtIndex:point.x] count]){

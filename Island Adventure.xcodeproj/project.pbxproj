@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D400089219BEE7EB005F7383 /* mushroom.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D400089119BEE7EB005F7383 /* mushroom.jpg */; };
+		D400089519BEF4C9005F7383 /* GIGSupply.m in Sources */ = {isa = PBXBuildFile; fileRef = D400089419BEF4C9005F7383 /* GIGSupply.m */; };
+		D400089819BEF4E6005F7383 /* GIGTool.m in Sources */ = {isa = PBXBuildFile; fileRef = D400089719BEF4E6005F7383 /* GIGTool.m */; };
+		D400089B19BEF5C8005F7383 /* GIGCharacter.m in Sources */ = {isa = PBXBuildFile; fileRef = D400089A19BEF5C8005F7383 /* GIGCharacter.m */; };
 		D45EF5C419BEAC3D00B9618E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D45EF5C319BEAC3D00B9618E /* Foundation.framework */; };
 		D45EF5C619BEAC3D00B9618E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D45EF5C519BEAC3D00B9618E /* CoreGraphics.framework */; };
 		D45EF5C819BEAC3D00B9618E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D45EF5C719BEAC3D00B9618E /* UIKit.framework */; };
@@ -21,6 +25,20 @@
 		D45EF5E519BEAC3D00B9618E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D45EF5C719BEAC3D00B9618E /* UIKit.framework */; };
 		D45EF5ED19BEAC3D00B9618E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D45EF5EB19BEAC3D00B9618E /* InfoPlist.strings */; };
 		D45EF5EF19BEAC3D00B9618E /* Island_AdventureTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D45EF5EE19BEAC3D00B9618E /* Island_AdventureTests.m */; };
+		D45EF60319BEB16600B9618E /* animal1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D45EF5F819BEB16600B9618E /* animal1.jpg */; };
+		D45EF60419BEB16600B9618E /* animal2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D45EF5F919BEB16600B9618E /* animal2.jpg */; };
+		D45EF60519BEB16600B9618E /* beach.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D45EF5FA19BEB16600B9618E /* beach.jpg */; };
+		D45EF60619BEB16600B9618E /* berries.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D45EF5FB19BEB16600B9618E /* berries.jpg */; };
+		D45EF60719BEB16600B9618E /* branch.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D45EF5FC19BEB16600B9618E /* branch.jpg */; };
+		D45EF60819BEB16600B9618E /* crevisse.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D45EF5FD19BEB16600B9618E /* crevisse.jpg */; };
+		D45EF60919BEB16600B9618E /* fruit.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D45EF5FE19BEB16600B9618E /* fruit.jpg */; };
+		D45EF60A19BEB16600B9618E /* rock.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D45EF5FF19BEB16600B9618E /* rock.jpg */; };
+		D45EF60B19BEB16600B9618E /* rope.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D45EF60019BEB16600B9618E /* rope.jpg */; };
+		D45EF60C19BEB16600B9618E /* shelter.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D45EF60119BEB16600B9618E /* shelter.jpg */; };
+		D45EF60D19BEB16600B9618E /* water.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D45EF60219BEB16600B9618E /* water.jpg */; };
+		D45EF61019BEB83E00B9618E /* GIGTile.m in Sources */ = {isa = PBXBuildFile; fileRef = D45EF60F19BEB83E00B9618E /* GIGTile.m */; };
+		D45EF61519BEB93E00B9618E /* GIGFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = D45EF61419BEB93E00B9618E /* GIGFactory.m */; };
+		D465799C19C05B850087CF67 /* GIGCrevisse.m in Sources */ = {isa = PBXBuildFile; fileRef = D465799B19C05B850087CF67 /* GIGCrevisse.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +52,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		D400089119BEE7EB005F7383 /* mushroom.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = mushroom.jpg; sourceTree = "<group>"; };
+		D400089319BEF4C9005F7383 /* GIGSupply.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GIGSupply.h; sourceTree = "<group>"; };
+		D400089419BEF4C9005F7383 /* GIGSupply.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GIGSupply.m; sourceTree = "<group>"; };
+		D400089619BEF4E6005F7383 /* GIGTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GIGTool.h; sourceTree = "<group>"; };
+		D400089719BEF4E6005F7383 /* GIGTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GIGTool.m; sourceTree = "<group>"; };
+		D400089919BEF5C8005F7383 /* GIGCharacter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GIGCharacter.h; sourceTree = "<group>"; };
+		D400089A19BEF5C8005F7383 /* GIGCharacter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GIGCharacter.m; sourceTree = "<group>"; };
 		D45EF5C019BEAC3D00B9618E /* Island Adventure.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Island Adventure.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D45EF5C319BEAC3D00B9618E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		D45EF5C519BEAC3D00B9618E /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -53,6 +78,23 @@
 		D45EF5EA19BEAC3D00B9618E /* Island AdventureTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Island AdventureTests-Info.plist"; sourceTree = "<group>"; };
 		D45EF5EC19BEAC3D00B9618E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		D45EF5EE19BEAC3D00B9618E /* Island_AdventureTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Island_AdventureTests.m; sourceTree = "<group>"; };
+		D45EF5F819BEB16600B9618E /* animal1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = animal1.jpg; sourceTree = "<group>"; };
+		D45EF5F919BEB16600B9618E /* animal2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = animal2.jpg; sourceTree = "<group>"; };
+		D45EF5FA19BEB16600B9618E /* beach.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = beach.jpg; sourceTree = "<group>"; };
+		D45EF5FB19BEB16600B9618E /* berries.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = berries.jpg; sourceTree = "<group>"; };
+		D45EF5FC19BEB16600B9618E /* branch.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = branch.jpg; sourceTree = "<group>"; };
+		D45EF5FD19BEB16600B9618E /* crevisse.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = crevisse.jpg; sourceTree = "<group>"; };
+		D45EF5FE19BEB16600B9618E /* fruit.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = fruit.jpg; sourceTree = "<group>"; };
+		D45EF5FF19BEB16600B9618E /* rock.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = rock.jpg; sourceTree = "<group>"; };
+		D45EF60019BEB16600B9618E /* rope.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = rope.jpg; sourceTree = "<group>"; };
+		D45EF60119BEB16600B9618E /* shelter.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = shelter.jpg; sourceTree = "<group>"; };
+		D45EF60219BEB16600B9618E /* water.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = water.jpg; sourceTree = "<group>"; };
+		D45EF60E19BEB83E00B9618E /* GIGTile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GIGTile.h; sourceTree = "<group>"; };
+		D45EF60F19BEB83E00B9618E /* GIGTile.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GIGTile.m; sourceTree = "<group>"; };
+		D45EF61319BEB93E00B9618E /* GIGFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GIGFactory.h; sourceTree = "<group>"; };
+		D45EF61419BEB93E00B9618E /* GIGFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GIGFactory.m; sourceTree = "<group>"; };
+		D465799A19C05B850087CF67 /* GIGCrevisse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GIGCrevisse.h; sourceTree = "<group>"; };
+		D465799B19C05B850087CF67 /* GIGCrevisse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GIGCrevisse.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +121,37 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B30BC6BC19C70CEB00752243 /* PlayerAndFinalChallenge */ = {
+			isa = PBXGroup;
+			children = (
+				D400089919BEF5C8005F7383 /* GIGCharacter.h */,
+				D400089A19BEF5C8005F7383 /* GIGCharacter.m */,
+				D465799A19C05B850087CF67 /* GIGCrevisse.h */,
+				D465799B19C05B850087CF67 /* GIGCrevisse.m */,
+			);
+			name = PlayerAndFinalChallenge;
+			sourceTree = "<group>";
+		};
+		B30BC6BD19C70D4000752243 /* Navigation */ = {
+			isa = PBXGroup;
+			children = (
+				D45EF60E19BEB83E00B9618E /* GIGTile.h */,
+				D45EF60F19BEB83E00B9618E /* GIGTile.m */,
+			);
+			name = Navigation;
+			sourceTree = "<group>";
+		};
+		B30BC6BE19C70D9E00752243 /* StatEffects */ = {
+			isa = PBXGroup;
+			children = (
+				D400089319BEF4C9005F7383 /* GIGSupply.h */,
+				D400089419BEF4C9005F7383 /* GIGSupply.m */,
+				D400089619BEF4E6005F7383 /* GIGTool.h */,
+				D400089719BEF4E6005F7383 /* GIGTool.m */,
+			);
+			name = StatEffects;
+			sourceTree = "<group>";
+		};
 		D45EF5B719BEAC3D00B9618E = {
 			isa = PBXGroup;
 			children = (
@@ -117,6 +190,7 @@
 				D45EF5D519BEAC3D00B9618E /* Main.storyboard */,
 				D45EF5D819BEAC3D00B9618E /* GIGViewController.h */,
 				D45EF5D919BEAC3D00B9618E /* GIGViewController.m */,
+				D45EF61119BEB86300B9618E /* Model */,
 				D45EF5DB19BEAC3D00B9618E /* Images.xcassets */,
 				D45EF5CA19BEAC3D00B9618E /* Supporting Files */,
 			);
@@ -126,6 +200,18 @@
 		D45EF5CA19BEAC3D00B9618E /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				D45EF5F819BEB16600B9618E /* animal1.jpg */,
+				D45EF5F919BEB16600B9618E /* animal2.jpg */,
+				D45EF5FA19BEB16600B9618E /* beach.jpg */,
+				D45EF5FB19BEB16600B9618E /* berries.jpg */,
+				D45EF5FC19BEB16600B9618E /* branch.jpg */,
+				D45EF5FD19BEB16600B9618E /* crevisse.jpg */,
+				D45EF5FE19BEB16600B9618E /* fruit.jpg */,
+				D400089119BEE7EB005F7383 /* mushroom.jpg */,
+				D45EF5FF19BEB16600B9618E /* rock.jpg */,
+				D45EF60019BEB16600B9618E /* rope.jpg */,
+				D45EF60119BEB16600B9618E /* shelter.jpg */,
+				D45EF60219BEB16600B9618E /* water.jpg */,
 				D45EF5CB19BEAC3D00B9618E /* Island Adventure-Info.plist */,
 				D45EF5CC19BEAC3D00B9618E /* InfoPlist.strings */,
 				D45EF5CF19BEAC3D00B9618E /* main.m */,
@@ -150,6 +236,26 @@
 				D45EF5EB19BEAC3D00B9618E /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D45EF61119BEB86300B9618E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				D45EF61219BEB92D00B9618E /* Factory */,
+				B30BC6BD19C70D4000752243 /* Navigation */,
+				B30BC6BE19C70D9E00752243 /* StatEffects */,
+				B30BC6BC19C70CEB00752243 /* PlayerAndFinalChallenge */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		D45EF61219BEB92D00B9618E /* Factory */ = {
+			isa = PBXGroup;
+			children = (
+				D45EF61319BEB93E00B9618E /* GIGFactory.h */,
+				D45EF61419BEB93E00B9618E /* GIGFactory.m */,
+			);
+			name = Factory;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -229,9 +335,21 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D45EF60C19BEB16600B9618E /* shelter.jpg in Resources */,
+				D45EF60419BEB16600B9618E /* animal2.jpg in Resources */,
+				D45EF60B19BEB16600B9618E /* rope.jpg in Resources */,
 				D45EF5DC19BEAC3D00B9618E /* Images.xcassets in Resources */,
+				D45EF60319BEB16600B9618E /* animal1.jpg in Resources */,
+				D45EF60519BEB16600B9618E /* beach.jpg in Resources */,
+				D400089219BEE7EB005F7383 /* mushroom.jpg in Resources */,
+				D45EF60619BEB16600B9618E /* berries.jpg in Resources */,
 				D45EF5CE19BEAC3D00B9618E /* InfoPlist.strings in Resources */,
+				D45EF60819BEB16600B9618E /* crevisse.jpg in Resources */,
 				D45EF5D719BEAC3D00B9618E /* Main.storyboard in Resources */,
+				D45EF60919BEB16600B9618E /* fruit.jpg in Resources */,
+				D45EF60A19BEB16600B9618E /* rock.jpg in Resources */,
+				D45EF60719BEB16600B9618E /* branch.jpg in Resources */,
+				D45EF60D19BEB16600B9618E /* water.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -251,7 +369,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				D45EF5DA19BEAC3D00B9618E /* GIGViewController.m in Sources */,
+				D45EF61019BEB83E00B9618E /* GIGTile.m in Sources */,
+				D45EF61519BEB93E00B9618E /* GIGFactory.m in Sources */,
+				D400089819BEF4E6005F7383 /* GIGTool.m in Sources */,
 				D45EF5D419BEAC3D00B9618E /* GIGAppDelegate.m in Sources */,
+				D400089B19BEF5C8005F7383 /* GIGCharacter.m in Sources */,
+				D400089519BEF4C9005F7383 /* GIGSupply.m in Sources */,
+				D465799C19C05B850087CF67 /* GIGCrevisse.m in Sources */,
 				D45EF5D019BEAC3D00B9618E /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -457,6 +581,7 @@
 				D45EF5F419BEAC3D00B9618E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D45EF5F519BEAC3D00B9618E /* Build configuration list for PBXNativeTarget "Island AdventureTests" */ = {
 			isa = XCConfigurationList;
@@ -465,6 +590,7 @@
 				D45EF5F719BEAC3D00B9618E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
